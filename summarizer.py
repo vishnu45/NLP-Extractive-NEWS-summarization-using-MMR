@@ -1,8 +1,8 @@
-# import fileRead
-# import sentence
-# import rougeScore
+import textProcessing as tp
 import nltk
 import os
+import string
+import math
 	
 # set the main Document folder path where the subfolders are present
 main_folder_path = os.getcwd() + "/Documents"
@@ -17,4 +17,11 @@ for folder in os.listdir(main_folder_path):
 	# find all files in the sub folder selected
 	files = os.listdir(curr_folder)
 
-	
+	# list of all sentences from each file in the document cluster
+	doc_cluster = []
+
+	for file in files:
+		print file
+		sentences = tp.readFile(curr_folder + "/" + file)
+
+		# doc_cluster = doc_cluster + sentences
