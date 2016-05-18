@@ -32,6 +32,15 @@ class sentence(object):
 		return self.originalWords
 
 	#-------------------------------------------------------------------
+	# Description	: 
+	# Parameters	: 
+	#				  
+	# Return 		: 
+	#-------------------------------------------------------------------
+	def getWordFreq(self):
+		return self.wordFreq
+
+	#-------------------------------------------------------------------
 	# Description	: Function to create a dictonary of word frequencies
 	#				  for the sentence object
 	# Parameters	: None
