@@ -1,6 +1,6 @@
 ## Comparison of MMR and LexRank Automatic Text Summarization approaches
 
-[Automatic summarization](https://en.wikipedia.org/wiki/Automatic_summarization) techniques are used to automate the process of summarizing document(s) to form a relatively shorter summary that conveys the most important information from the original larger text. Muli-document summarization in particular is used to extract summary from multiple documents written about the same topic. Here we have to tried to implement and compare two very commonly used techniques for multi-document automatic text summarization :
+[Automatic summarization](https://en.wikipedia.org/wiki/Automatic_summarization) techniques are used to automate the process of summarizing document(s) to form a relatively shorter summary that conveys the most important information from the original larger text. Multi-document summarization in particular is used to extract summary from multiple documents written about the same topic. Here we have to tried to implement and compare two very commonly used techniques for multi-document automatic text summarization:
 * [Maximal Marginal Relevance](http://www.cs.cmu.edu/~jgc/publication/The_Use_MMR_Diversity_Based_LTMIR_1998.pdf) (MMR)
 
 
