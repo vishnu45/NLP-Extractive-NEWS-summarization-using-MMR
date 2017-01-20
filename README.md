@@ -56,4 +56,8 @@ We had implemented both MMR and LexRank and ran the evaluations (both ROUGE and 
 
 - For generating the **Jaccard coefficient scores** run the [jaccardScore.py](https://github.com/vishnu45/NLP-Extractive-NEWS-summarization-using-MMR/blob/master/jaccardScore.py). Both word and sentence level scores will be displayed on the screen
 
-**NOTE**: This work was done as part of the CAP6640: Natural Language Processing course at UCF in Spring 2016 along with [Amar Nair](https://www.linkedin.com/in/amarnair/) and [Syed Ahmed](https://www.linkedin.com/in/syedhope/).
+**NOTE**: 
+
+The documents from DUC2004 have not been added here. These documents can be obtained from [here](http://www-nlpir.nist.gov/projects/duc/data/2004_data.html).
+
+This work was done as part of the CAP6640: Natural Language Processing course at UCF in Spring 2016 along with [Amar Nair](https://www.linkedin.com/in/amarnair/) and [Syed Ahmed](https://www.linkedin.com/in/syedhope/).
